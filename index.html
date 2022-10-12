@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio!!!</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>My Portfolio!!!</title>
 </head>
 <body>
   <header class="neutral-theme">
@@ -14,10 +15,10 @@
     <a href="#about" class="header-link button">Find out more</a>
   </header>  
   <main>
-    <section class="about primary-theme">
+    <section id="about" class="about primary-theme">
         <h2>About me</h2>
         <div class="about-container">
-          <img class="about-img" src="/images/Sebastian.jpg"  alt="Sebastian, a cat, in a blanket that is blue."> 
+          <img src="./images/Sebastian.jpg" class="about-img"   alt="Sebastian, a cat, in a blanket that is blue."> 
           <div class="about-text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet vulputate nibh. Duis ac nisi turpis. Duis diam felis, sollicitudin id libero id, commodo condimentum nibh. Aenean vel purus ut eros fringilla maximus. Nam vel tristique lectus, a blandit leo.</p>
             <p>Ut tellus diam, mattis sed neque at, maximus accumsan lacus. Sed turpis tortor, efficitur sit amet dui ac, feugiat ullamcorper augue. Integer felis libero, rhoncus vel nisl et, interdum hendrerit odio.</p>
@@ -33,12 +34,13 @@
       <h2>Projects</h2>
       <article>
         <div class="article-text">
-          <h3>My Project 1</h3>
-          <p>stuff about my project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet vulputate nibh. Duis ac nisi turpis. Duis diam felis, sollicitudin id libero id, commodo condimentum nibh. Aenean vel purus ut eros fringilla maximus. Nam vel tristique lectus, a blandit leo.</p>
-          <a href="#" class="button">See it live</a>
-          <a href="#" class="button">Fork it on Github</a>
+          <h3>My Terrarium</h3>
+          <p>This is a terrarium where you can move the plants around for a real meditative experience.</p>
+          <p> The project uses CSS and JavaScript.</p>
+          <a href="https://sblackmoor.github.io/terrarium/" class="button">See it live</a>
+          <a href="https://github.com/sblackmoor/terrarium" class="button">Fork it on Github</a>
         </div>
-        <img src="/images/project.jpg" class="article-img" alt="Lorem ipsum dolor sit, amet consectetur adipisicing elit." class="article-img">
+        <img src="./images/terrarium.PNG" class="article-img" alt="Terrarium with plants." class="article-img">
       </article>
       <article>
         <div class="article-text">
@@ -47,7 +49,7 @@
           <a href="#" class="button">See it live</a>
           <a href="#" class="button">Fork it on Github</a>
         </div>
-        <img src="/images/project.jpg" class="article-img" alt="Lorem ipsum dolor sit, amet consectetur adipisicing elit.">
+        <img src="./images/project.jpg" class="article-img" alt="Lorem ipsum dolor sit, amet consectetur adipisicing elit.">
       </article>
       <article>
         <div class="article-text">
@@ -56,7 +58,7 @@
           <a href="#" class="button">See it live</a>
           <a href="#" class="button">Fork it on Github</a>
         </div>
-        <img src="/images/project.jpg" class="article-img" alt="Lorem ipsum dolor sit, amet consectetur adipisicing elit.">
+        <img src="./images/project.jpg" class="article-img" alt="Lorem ipsum dolor sit, amet consectetur adipisicing elit.">
       </article>
     </section>
     <section class="contact primary-theme">
@@ -64,6 +66,7 @@
       <p>If you would like to work with me, you can drop me a message!</p>
       <a href="mailto:email@example.com" class="button">Let's Talk</a>
     </section>
+  </main>
     <footer>
       <ul class="social">
         <li class="social-item">
@@ -81,6 +84,5 @@
       </ul>
       <p>&copy; 2022 Portfolio design by Susan</p>
     </footer>
-  </main>
-</body>
+  </body>
 </html>

@@ -217,6 +217,26 @@ contact {
     justify-content: space-between;
 }
 
+.card {
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 32px 32px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
 .linkedin {
     background-image: url(images/linkedin.svg);
 }
